@@ -17,7 +17,7 @@ public class OledMain {
         //后台显示树莓派中的可用字体
         displaySupportFonts();
 
-        OLEDDisplayDriver.getInstance().display(DrawImg.getCover());;
+        OLEDDisplayDriver.getInstance().display(DrawImg.getCover());
         Thread.sleep(2000);
 
         //展示jar包同级目录下的所有jpg图片
